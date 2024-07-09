@@ -1,0 +1,262 @@
+article {
+  background-image: url(../images/game-bg/article.svg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.article-text1 {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.article-flex {
+  display: flex;
+  justify-content: center;
+}
+.article-text2 {
+  padding-top: 11.5px;
+}
+
+.article-text_2 {
+  font-family: Orbitron;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: center;
+  width: 716px;
+  height: 148px;
+  color: rgba(255, 255, 255, 1);
+}
+.article-text3 {
+  padding-top: 39px;
+}
+.article-text_3 {
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  width: 698px;
+  color: rgba(223, 223, 223, 0.8);
+  padding-bottom: 61px;
+}
+.kub-div {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding-bottom: 32px;
+}
+.ku-b {
+  width: 602.46px;
+  height: 212px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.ku_b {
+  padding: 35px 0px 19px 38px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.ku-bh4 {
+  font-family: Orbitron;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  color: var(--whiteColor);
+}
+.ku-bp {
+  padding-left: 80px;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(223, 223, 223, 0.8);
+}
+.article-two {
+  background: rgba(0, 0, 0, 1);
+}
+.article-two-control {
+  display: flex;
+  gap: 95px;
+}
+.h3-two {
+  padding-top: 11px;
+  width: 684px;
+  height: 148px;
+  font-family: Orbitron;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+.p-two {
+  margin-top: 38px;
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  width: 721px;
+  height: 120px;
+  top: 229.58px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(223, 223, 223, 0.8);
+}
+.fire3 {
+  width: 200px;
+  padding-top: 129px;
+}
+.img-two {
+  border-radius: 50%;
+}
+.img-two:hover {
+  box-shadow: inset 1px 1px 100px 1px rgb(0, 60, 255);
+  transition: 0.4s;
+  transform: translateY(-10px);
+}
+.article-button {
+  margin-top: 54px;
+  background-color: var(--gameFutureColor);
+  border: none;
+  padding: 21px 34px;
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+.article-button:hover {
+  box-shadow: inset 1px 1px 100px 1px red;
+  transition: 0.8s;
+}
+.img_two {
+  margin-top: 85px;
+  width: 442px;
+  height: 530px;
+  background-image: url(../images/game-bg/gamer1.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 970px) {
+  .article-text_2 {
+    font-size: 50px;
+  }
+  .article-text_3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) {
+  .article-text_2 {
+    font-size: 30px;
+  }
+  .article-text_3 {
+    font-size: 14px;
+  }
+  .h3-two {
+    padding-top: 11px;
+    width: 684px;
+    height: 148px;
+    font-family: Orbitron;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: left;
+    color: var(--whiteColor);
+  }
+
+  .scrol {
+    width: 280px;
+  }
+  .p-two {
+    width: 200px;
+  }
+}
+@media (max-width: 1200px) {
+  .kub-div {
+    display: grid;
+  }
+  .article-two-control {
+    display: ruby;
+  }
+}
+
+@media (max-width: 850px) {
+  .h3-two {
+    width: 254px;
+    height: 148px;
+    font-size: 40px;
+  }
+  .big-img_two {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (max-width: 1282px) {
+  .img_two {
+    margin-top: 85px;
+    width: 342px;
+    height: 430px;
+  }
+}
+
+@media (max-width: 660px) {
+  .ku-b {
+    width: 302.46px;
+    height: 112px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .img_two {
+    width: 270px;
+    height: 510px;
+    background-size: 510px 270px;
+  }
+  .ku_b {
+    padding: 5px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .ku-bh4 {
+    font-family: Orbitron;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  .ku-bp {
+    padding-left: 20px;
+    font-family: Orbitron;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(223, 223, 223, 0.8);
+  }
+  .p-two {
+    font-size: 10px;
+    font-weight: 380;
+    line-height: 30px;
+    text-align: left;
+    width: 300px;
+    /* height: 120px; */
+    top: 229.58px;
+    color: rgba(223, 223, 223, 0.8);
+  }
+  .h3-two {
+    width: 310px;
+    padding-bottom: 200px;
+  }
+}

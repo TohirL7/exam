@@ -1,0 +1,168 @@
+section {
+  background: rgba(253, 208, 74, 1);
+}
+.section-h1 {
+  font-family: Orbitron;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: center;
+  color: rgba(34, 39, 48, 1);
+  padding-bottom: 44px;
+}
+.section-relative {
+  position: relative;
+}
+.section-absolute {
+  position: absolute;
+  left: -9px;
+  bottom: -8px;
+}
+.section-p {
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  width: 576px;
+  color: rgba(85, 85, 85, 1);
+  padding-bottom: 41px;
+}
+.section-logos {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-bottom: 130px;
+}
+.size {
+  width: 440px;
+  height: 692px;
+}
+.Frame {
+  display: flex;
+  justify-content: center;
+}
+.benom_ {
+  font-family: Orbitron;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+.benom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 67px;
+}
+.benom-button {
+  width: 175px;
+  height: 70px;
+  border: none;
+  background: rgba(87, 184, 255, 1);
+}
+.benom-button_ {
+  font-family: Orbitron;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--whiteColor);
+}
+.benom-button:hover {
+  box-shadow: inset 1px 1px 100px 1px red;
+  transition: 0.8s;
+}
+.xbox-text1 {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(87, 184, 255, 1);
+  padding: 54px 0px 28px 0px;
+}
+.xbox--text1 {
+  font-family: Orbitron;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: left;
+  color: var(--whiteColor);
+  width: 607px;
+  padding-bottom: 87px;
+}
+.paddding {
+  padding: 75px 0px 12px 0px;
+}
+.flax-xbox {
+  display: flex;
+  gap: 24px;
+}
+.mini-box {
+  width: 300px;
+  font-family: Orbitron;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: var(--whiteColor);
+}
+.flax-xbox-2 {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+@media (max-width: 1322px) {
+  .Frame {
+    display: ruby;
+  }
+}
+@media (max-width: 1341px) {
+  .flax-xbox {
+    display: ruby;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1396px) {
+  .section-logos {
+    display: grid;
+  }
+}
+@media (max-width: 700px) {
+  .size {
+    width: 310px;
+    height: 572px;
+  }
+  .big-img-xbox {
+    width: 310px;
+  }
+  .flax-xbox-2 {
+    display: ruby;
+  }
+  .xbox--text1 {
+    font-family: Orbitron;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+    color: var(--whiteColor);
+    width: 307px;
+    padding-bottom: 87px;
+  }
+  .benom {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .xbox-size {
+    width: 270px;
+  }
+  .big-img-xbox {
+    width: 270px;
+  }
+  .size {
+    width: 280px;
+    height: 792px;
+  }
+}
